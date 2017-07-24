@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_directions_bus_white_24dp"
+        android:orderInCategory="100"
+        android:id="@+id/bus"
+        android:title="Bus"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_local_taxi_white_24dp"
+        android:orderInCategory="100"
+        android:id="@+id/taxi"
+        android:title="Taxi"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_train_white_24dp"
+        android:orderInCategory="100"
+        android:id="@+id/etusa"
+        android:title="Etusa"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_view_list_white_24dp"
+        android:orderInCategory="100"
+        android:id="@+id/tout"
+        android:title="Tout"
+        app:showAsAction="always" />
+</menu>

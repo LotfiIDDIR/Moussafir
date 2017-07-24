@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lebcirakram.mac.transports.Client.Fragment.ListFragment">
+
+
+    <ListView
+        android:id="@+id/listclient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp" />
+
+    <io.github.yavski.fabspeeddial.FabSpeedDial
+        android:id="@+id/fb_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:elevation="8dp"
+        app:fabGravity="bottom_end"
+        app:fabMenu="@menu/menu_filter"
+        app:miniFabBackgroundTint="@color/cardview_light_background"
+        app:miniFabTitleBackgroundTint="?attr/colorAccent" />
+
+</FrameLayout>
